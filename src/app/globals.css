@@ -1,0 +1,21 @@
+/* Global base styles */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    "Apple Color Emoji", "Segoe UI Emoji";
+  background: #000;
+  color: #fff;
+}
+
+/* Links */
+a { color: #60a5fa; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Simple utility */
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 40px 16px;
+}
